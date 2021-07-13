@@ -6,7 +6,8 @@ namespace rock_paper_scissors
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Game g = new Game();
+            g.Start();
         }
     }
 }
